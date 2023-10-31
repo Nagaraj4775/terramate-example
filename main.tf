@@ -3,4 +3,5 @@ module "nginx" {
  
  ## variables
  image = "nginx"
+ environment = "${terraform.workspace}"
 }

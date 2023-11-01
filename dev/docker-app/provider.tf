@@ -1,5 +1,5 @@
-generate_hcl "provider.tf" {
-  content {
+// TERRAMATE: GENERATED AUTOMATICALLY DO NOT EDIT
+
 terraform {
   required_providers {
     docker = {
@@ -8,7 +8,5 @@ terraform {
     }
   }
 }
+provider "docker" {
 }
-}
-provider "docker" {}
-

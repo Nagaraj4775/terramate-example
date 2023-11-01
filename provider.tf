@@ -1,3 +1,5 @@
+generate_hcl "provider.tf" {
+  content {
 terraform {
   required_providers {
     docker = {
@@ -6,6 +8,7 @@ terraform {
     }
   }
 }
-
+}
+}
 provider "docker" {}
 

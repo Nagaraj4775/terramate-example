@@ -1,5 +1,5 @@
 module "nginx" {
- source = "./modules/container"
+ source = "../../modules/container"
  
  ## variables
  image = "nginx"
